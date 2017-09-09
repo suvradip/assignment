@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+<title>BE A SUMO | Mockup</title>
+	<link rel="stylesheet" href="./assets/main.css">
+</head>
+<body>
+	<a href="#openModal">Click to open modal window</a>
+	<div id="openModal" class="modalWindow">
+		<div>
+			<div class="modalHeader">
+				<h1>Select an Employee</h1>
+				<a href="#close" title="Close" id="closelBtn" class="close">&#xd7;</a>
+			</div>
+
+			<div class="modalContent">
+				<div>
+					<input type="checkbox" id="check_wlcm_email">
+					<label for="check_wlcm_email"> Send welcome email to employee</label>
+				</div>
+				
+				<div class="team">
+					<div>Select a Team in the Organization</div>
+					<div>
+						<div class="elements">
+							<input type="text" id="team" value="" autocomplete="off" placeholder="Select Team..">
+							<!-- <i class="dropdown"></i> -->
+						</div>
+						<div id="suggetion-area-1" class="suggetion-area">
+						</div>
+					</div>
+				</div>
+
+				<div class="employee">
+					<div>Select an Employee</div>
+					<div class="elements">
+						<input disabled type="text" id="employee" class="" placeholder="Select Employee..." autocomplete="off">
+						<!-- <i class="dropdown"></i> -->
+					</div>
+					<div id="suggetion-area-2" class="suggetion-area">
+				</div>
+			</div>
+
+			<div class="modalFooter">
+				<a href="#cancel" title="Cancel" id="cancelBtn" class="btn cancel">Cancel</a>
+				<a href="#ok" title="Ok" id="okBtn" class="btn ok">OK</a>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="./assets/auto.js"></script>
+<script type="text/javascript" src="./assets/data.js"></script>
+<script type="text/javascript" src="./assets/main.js"></script>
+</html>
