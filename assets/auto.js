@@ -252,17 +252,6 @@
 
 	var _auto = {
 		init : function(obj) {
-				var _ele = dom.get(obj.container),
-					_i;
-
-				//_ele.addClass("auto");
-				// _i = dom.create("i");
-				// _i.addClass("dropdown");
-				// _i.on("click", function(){
-				// 	console.log(this);
-				// });
-				// dom.get(_ele[0].parentNode).append(_i);
-
 				return  new Auto(_ele, obj);
 		}
 	};
