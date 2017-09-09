@@ -252,6 +252,7 @@
 
 	var _auto = {
 		init : function(obj) {
+				var _ele = dom.get(obj.container);
 				return  new Auto(_ele, obj);
 		}
 	};
